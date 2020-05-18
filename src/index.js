@@ -10,6 +10,7 @@ mongoose.connect("mongodb://localhost/notetaking_db", {
 	useUnifiedTopology: true,
 });
 
+// app 설정
 const app = express();
 const PORT = 4300;
 
